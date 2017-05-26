@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="AppUtils Test" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="CleanUtils Test" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="CrashUtils Test" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="DeviceUtils Test" />
+
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="HandlerUtils Test" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="ImageUtils Test" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="KeyboardUtils Test" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="LocationUtils Test" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="NetworkUtils Test" />
+
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="PhoneUtils Test" />
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="PinyinUtils Test" />
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="ProcessUtils Test" />
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="SDCardUtils Test" />
+
+        <Button
+            android:id="@+id/btn14"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="SnackbarUtils Test" />
+
+        <Button
+            android:id="@+id/btn15"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="SpannableStringUtils Test" />
+
+    </LinearLayout>
+</ScrollView>

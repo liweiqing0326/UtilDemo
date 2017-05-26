@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_short_snackbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Short Snackbar" />
+
+        <Button
+            android:id="@+id/btn_short_snackbar_with_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Short Snackbar With Action" />
+
+        <Button
+            android:id="@+id/btn_long_snackbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Long Snackbar" />
+
+        <Button
+            android:id="@+id/btn_long_snackbar_with_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Long Snackbar With Action" />
+
+        <Button
+            android:id="@+id/btn_indefinite_snackbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Indefinite Snackbar" />
+
+        <Button
+            android:id="@+id/btn_indefinite_snackbar_with_action"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Indefinite Snackbar With Action" />
+
+        <Button
+            android:id="@+id/btn_add_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add View" />
+
+        <Button
+            android:id="@+id/btn_add_view_with_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add View With Action" />
+
+
+        <Button
+            android:id="@+id/btn_cancel_snackbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel Snackbar" />
+
+    </LinearLayout>
+</ScrollView>
